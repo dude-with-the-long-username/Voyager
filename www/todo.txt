@@ -1,0 +1,7 @@
+simpler ui with pretty textboxes
+modal for when location not found
+button for `not your location?`
+input background
+signing
+lifecycle
+alarm
