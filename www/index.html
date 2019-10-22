@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<style>
@@ -28,13 +29,17 @@
 			z-index: -100;
 			visibility: visible;
 		}
+		.icon{
+			vertical-align: middle;
+			padding: 4px;
+		}
 	</style>
 </head>
 
 <body>
 	<div class="userInput">
 		<span>
-			<input id="source" type="text" placeholder="getting your location..">
+			<input id="source" type="text" placeholder="getting your location.."><i class="material-icons icon">near_me</i>
 		</span>
 		<span>
 			<input id="destination" type="text" placeholder="Where to go?">
